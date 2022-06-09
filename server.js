@@ -79,6 +79,6 @@ app.get("/api/:alienName", (req, res) =>{
 })
 
 app.listen(process.env.PORT || PORT, () =>{
-    console.log("Server is running")
+    console.log("Server is running!")
 })
 
